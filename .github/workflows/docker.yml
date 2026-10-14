@@ -1,0 +1,45 @@
+name: Build and release Docker image
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: docker-release
+  cancel-in-progress: true
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Build frontend
+        working-directory: frontend
+        run: |
+          npm ci
+          npx ng build
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: maven
+
+      # Image name and "latest" tag are configured in the jib-maven-plugin section of pom.xml
+      - name: Build and push image
+        run: >
+          mvn -B compile jib:build
+          -Djib.to.auth.username=${{ github.actor }}
+          -Djib.to.auth.password=${{ secrets.GITHUB_TOKEN }}

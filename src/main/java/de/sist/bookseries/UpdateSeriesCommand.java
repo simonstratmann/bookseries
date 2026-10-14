@@ -64,26 +64,48 @@ public class UpdateSeriesCommand implements Callable<Integer> {
     }
 
     private static void update(List<BookSeries> bookSeriesList) {
-        ChromeOptions options = new ChromeOptions();
-        options.setBinary("c:\\temp\\GoogleChromePortableDev\\App\\Chrome-bin\\chrome.exe");
-//        options.addArguments("--headless");
-
-        WebDriver driver = new ChromeDriver(options);
+        final MetadataSource source = MetadataSource.configured();
+        WebDriver driver = null;
         try {
             for (BookSeries series : bookSeriesList) {
                 if (series.getLastUpdate() != null && series.getLastUpdate().isAfter(Instant.now().minus(4 * 7 * 24, ChronoUnit.HOURS))) {
                     System.out.println("Series was last updated less than 4 weeks ago - skipping it");
                     continue;
                 }
-                System.out.printf("Updating series %s by %s (%d of %d)%n", series.getTitle(), series.getAuthor(), bookSeriesList.indexOf(series)+1, bookSeriesList.size());
-                updateBooksForSeries(series, driver);
-                Thread.sleep(5000);
+                System.out.printf("Updating series %s by %s from %s (%d of %d)%n", series.getTitle(), series.getAuthor(), source, bookSeriesList.indexOf(series)+1, bookSeriesList.size());
+                if (source == MetadataSource.HARDCOVER) {
+                    try {
+                        Hardcover.updateBooksForSeries(series);
+                        if (series.getHardcoverSlug() != null) {
+                            series.setLastUpdate(Instant.now());
+                        }
+                    } catch (IllegalStateException e) {
+                        // Configuration or API errors (missing token, rate limit exceeded) would fail for every series
+                        throw e;
+                    } catch (Exception e) {
+                        System.out.println("Error loading series from Hardcover: " + e.getMessage());
+                    }
+                    System.out.println();
+                    Thread.sleep(1000);
+                } else {
+                    if (series.getGoodReadsUrl() == null) {
+                        System.out.println("Series has no Goodreads URL - skipping it");
+                        continue;
+                    }
+                    if (driver == null) {
+                        driver = createChromeDriver();
+                    }
+                    updateBooksForSeries(series, driver);
+                    Thread.sleep(5000);
+                }
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            driver.quit();
+            if (driver != null) {
+                driver.quit();
+            }
         }
         try {
             Jackson.write(bookSeriesList);
@@ -91,6 +113,13 @@ public class UpdateSeriesCommand implements Callable<Integer> {
             throw new RuntimeException(e);
         }
         System.out.println("Completed");
+    }
+
+    private static WebDriver createChromeDriver() {
+        ChromeOptions options = new ChromeOptions();
+        options.setBinary("c:\\temp\\GoogleChromePortableDev\\App\\Chrome-bin\\chrome.exe");
+//        options.addArguments("--headless");
+        return new ChromeDriver(options);
     }
 
     private static void updateBooksForSeries(BookSeries series, WebDriver driver) {

@@ -38,13 +38,13 @@ public class BookSeriesController {
     @PostMapping("/series")
     public ResponseEntity<String> addSeries(@RequestBody Map<String, String> body) {
         String url = body.get("url");
-        if (url == null || !url.contains("/series/")) {
-            return ResponseEntity.badRequest().body("URL must be a Goodreads series URL");
+        if (!AddSeriesCommand.isSeriesUrl(url)) {
+            return ResponseEntity.badRequest().body("URL must be a Hardcover or Goodreads series URL");
         }
         new Thread(() -> {
             try {
                 List<BookSeries> existing = Jackson.load();
-                if (existing.stream().anyMatch(x -> x.getGoodReadsUrl().equals(url))) {
+                if (existing.stream().anyMatch(x -> x.hasUrl(url))) {
                     return;
                 }
                 List<BookSeries> newSeries = AddSeriesCommand.createInitialBookSeriesListFromUrl(url);
@@ -98,12 +98,12 @@ public class BookSeriesController {
                 .flatMap(x -> x.getBooks().stream())
                 .filter(book -> {
                     if (book.getPublication() != null && !book.getPublication().notYetPublished()) {
-                        Optional<LocalDate> date = book.getPublication().getPublicationDate().toLocalDate();
+                        Optional<LocalDate> date = book.getPublication().releaseDate();
                         return date.isPresent() && date.get().isAfter(LocalDate.now().minusDays(lastDays));
                     }
                     return false;
                 })
-                .sorted(Comparator.comparing(b -> b.getPublication().getPublicationDate().toLocalDate().orElse(LocalDate.MAX)))
+                .sorted(Comparator.comparing(b -> b.getPublication().releaseDate().orElse(LocalDate.MAX)))
                 .map(this::toDto)
                 .collect(Collectors.toList());
 
@@ -111,12 +111,12 @@ public class BookSeriesController {
                 .flatMap(x -> x.getBooks().stream())
                 .filter(book -> {
                     if (book.getPublication() != null && book.getPublication().notYetPublished()) {
-                        Optional<LocalDate> date = book.getPublication().getExpectedPublicationDate().toLocalDate();
+                        Optional<LocalDate> date = book.getPublication().releaseDate();
                         return date.isPresent() && date.get().isBefore(LocalDate.now().plusDays(nextDays));
                     }
                     return false;
                 })
-                .sorted(Comparator.comparing(b -> b.getPublication().getExpectedPublicationDate().toLocalDate().orElse(LocalDate.MAX)))
+                .sorted(Comparator.comparing(b -> b.getPublication().releaseDate().orElse(LocalDate.MAX)))
                 .map(this::toDto)
                 .collect(Collectors.toList());
 
@@ -136,15 +136,14 @@ public class BookSeriesController {
         if (book.getSeries() != null) {
             dto.setSeriesTitle(book.getSeries().getTitle());
             dto.setSeriesAuthor(book.getSeries().getAuthor());
-            dto.setSeriesUrl(book.getSeries().getGoodReadsUrl());
+            dto.setSeriesUrl(book.getSeries().getUrl());
             dto.setTotalBooks(book.getSeries().getBooks().size());
         }
         if (book.getPublication() != null) {
-            if (!book.getPublication().notYetPublished() && book.getPublication().getPublicationDate() != null) {
-                dto.setPublicationDate(book.getPublication().getPublicationDate().toLocalDate().orElse(null));
-            }
-            if (book.getPublication().notYetPublished() && book.getPublication().getExpectedPublicationDate() != null) {
-                dto.setExpectedPublicationDate(book.getPublication().getExpectedPublicationDate().toLocalDate().orElse(null));
+            if (book.getPublication().notYetPublished()) {
+                dto.setExpectedPublicationDate(book.getPublication().releaseDate().orElse(null));
+            } else {
+                dto.setPublicationDate(book.getPublication().releaseDate().orElse(null));
             }
         }
         return dto;

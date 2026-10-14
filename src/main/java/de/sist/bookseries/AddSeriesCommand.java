@@ -16,11 +16,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-@CommandLine.Command(name = "add", description = "Adds a new series by goodreads URL", aliases = {"a"})
+@CommandLine.Command(name = "add", description = "Adds a new series by Hardcover or Goodreads URL", aliases = {"a"})
 @SuppressWarnings({"ConstantConditions", "CallToPrintStackTrace"})
 public class AddSeriesCommand implements Callable<Integer> {
 
-    @CommandLine.Parameters(description = "Goodreads URL of the series", defaultValue = "")
+    @CommandLine.Parameters(description = "Hardcover or Goodreads URL of the series", defaultValue = "")
     private String newSeriesUrl;
 
 
@@ -32,15 +32,15 @@ public class AddSeriesCommand implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         if (Strings.isNullOrEmpty(newSeriesUrl)) {
-            System.out.println("Please enter the Goodreads URL of the series");
+            System.out.println("Please enter the Hardcover or Goodreads URL of the series");
             newSeriesUrl = new Scanner(System.in).nextLine();
         }
-        if (newSeriesUrl == null || !newSeriesUrl.contains("/series/")) {
+        if (!isSeriesUrl(newSeriesUrl)) {
             System.out.println("URL looks wrong");
             return 1;
         }
         final List<BookSeries> bookSeriesList = Jackson.load();
-        if (bookSeriesList.stream().anyMatch(x -> x.getGoodReadsUrl().equals(newSeriesUrl))) {
+        if (bookSeriesList.stream().anyMatch(x -> x.hasUrl(newSeriesUrl))) {
             System.out.println("Already exists");
             return 1;
         }
@@ -55,6 +55,10 @@ public class AddSeriesCommand implements Callable<Integer> {
     }
 
 
+    public static boolean isSeriesUrl(String url) {
+        return url != null && url.contains("/series/");
+    }
+
     public static List<BookSeries> createInitialBookSeriesListFromUrl(String seriesUrl) throws Exception {
         return createInitialBookSeriesListFromListOfUrls(seriesUrl);
     }
@@ -63,6 +67,10 @@ public class AddSeriesCommand implements Callable<Integer> {
         final List<BookSeries> bookSeriesList = new ArrayList<>();
         for (String url : seriesUrl) {
             try {
+                if (Hardcover.isSeriesUrl(url)) {
+                    bookSeriesList.add(Hardcover.createSeries(url));
+                    continue;
+                }
                 final Document doc = Jsoup.connect(url).get();
                 final Element seriesHeaderElement = doc.selectFirst(".responsiveSeriesHeader .gr-h1");
                 final String seriesHeader = seriesHeaderElement.text();

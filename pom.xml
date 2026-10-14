@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.sist</groupId>
-    <artifactId>BookSeries</artifactId>
+    <artifactId>bookseries</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BookSeries</name>
+    <name>bookseries</name>
     <description>BookSeries</description>
     <properties>
         <java.version>11</java.version>
@@ -117,7 +117,7 @@
                         <image>eclipse-temurin:17-jre</image>
                     </from>
                     <to>
-                        <image>ghcr.io/simonstratmann/bookseriesrealeases</image>
+                        <image>ghcr.io/simonstratmann/bookseries</image>
                         <tags>
                             <tag>latest</tag>
                         </tags>

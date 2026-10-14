@@ -9,7 +9,7 @@
     <div class="add-row">
       <input
         type="url"
-        placeholder="https://www.goodreads.com/series/..."
+        placeholder="https://hardcover.app/series/..."
         [(ngModel)]="newUrl"
         (keyup.enter)="add()"
         class="url-input"
@@ -25,7 +25,7 @@
     @if (message()) {
       <p class="message" [class.error]="messageType() === 'error'">{{ message() }}</p>
     }
-    <p class="hint">Paste the Goodreads series URL. Books will be fetched in the background using Chrome.</p>
+    <p class="hint">Paste the Hardcover series URL (or a Goodreads one). Books will be fetched in the background.</p>
   </div>
 
   @if (loading()) {
@@ -47,12 +47,12 @@
         </thead>
         <tbody>
           @for (s of sortedSeries(); track trackBySeries($index, s); let i = $index) {
-            <tr class="series-row" [class.expanded]="isExpanded(s.goodReadsUrl)" (click)="toggleExpand(s.goodReadsUrl)">
+            <tr class="series-row" [class.expanded]="isExpanded(s.url)" (click)="toggleExpand(s.url)">
               <td class="td-expand">
-                <span class="chevron" [class.open]="isExpanded(s.goodReadsUrl)">›</span>
+                <span class="chevron" [class.open]="isExpanded(s.url)">›</span>
               </td>
               <td>
-                <a [href]="s.goodReadsUrl" target="_blank" class="series-link" (click)="$event.stopPropagation()">{{ s.title }}</a>
+                <a [href]="s.url" target="_blank" class="series-link" (click)="$event.stopPropagation()">{{ s.title }}</a>
               </td>
               <td class="author">{{ s.author }}</td>
               <td class="books-count">{{ releasedCount(s) }}/{{ s.books.length }}</td>
@@ -63,7 +63,7 @@
                 <button class="btn-delete" (click)="delete(i, s.title, $event)" title="Remove series">✕</button>
               </td>
             </tr>
-            @if (isExpanded(s.goodReadsUrl)) {
+            @if (isExpanded(s.url)) {
               <tr class="books-row">
                 <td colspan="8">
                   <div class="books-panel">

@@ -76,7 +76,7 @@ export class SeriesList implements OnInit {
     if (!confirm(`Remove "${title}" from your list?`)) return;
     // index in sortedSeries may differ from index in series(); find by url
     const s = this.sortedSeries()[index];
-    const realIndex = this.series().findIndex(x => x.goodReadsUrl === s.goodReadsUrl);
+    const realIndex = this.series().findIndex(x => x.url === s.url);
     this.service.deleteSeries(realIndex).subscribe({
       next: () => { this.load(); this.showMessage(`Removed "${title}"`, 'success'); },
       error: () => this.showMessage('Failed to remove series', 'error')
@@ -101,7 +101,7 @@ export class SeriesList implements OnInit {
   }
 
   releasedCount(s: BookSeries): number {
-    return s.books.filter(b => b.publication?.publicationDate).length;
+    return s.books.filter(b => this.isReleased(b)).length;
   }
 
   lastRelease(s: BookSeries): string {
@@ -116,19 +116,18 @@ export class SeriesList implements OnInit {
 
   bookDate(book: Book): string {
     if (!book.publication) return '—';
-    if (book.publication.publicationDate) {
-      const d = this.pubDateToDate(book.publication.publicationDate);
+    const d = this.releaseDate(book);
+    if (this.isReleased(book)) {
       return d ? this.formatShortDate(d) : '—';
     }
     if (book.publication.expectedPublicationDate) {
-      const d = this.pubDateToDate(book.publication.expectedPublicationDate);
       return d ? 'Expected ' + this.formatShortDate(d) : 'Expected (unknown)';
     }
     return '—';
   }
 
   isExpected(book: Book): boolean {
-    return !!book.publication?.expectedPublicationDate && !book.publication?.publicationDate;
+    return !!book.publication?.expectedPublicationDate && !this.isReleased(book);
   }
 
   formatDate(iso: string | null): string {
@@ -149,8 +148,8 @@ export class SeriesList implements OnInit {
 
   private lastReleaseTs(s: BookSeries): number {
     const dates = s.books
-      .filter(b => b.publication?.publicationDate)
-      .map(b => this.pubDateToDate(b.publication!.publicationDate!))
+      .filter(b => this.isReleased(b))
+      .map(b => this.releaseDate(b))
       .filter((d): d is Date => d !== null)
       .map(d => d.getTime());
     return dates.length ? Math.max(...dates) : 0;
@@ -159,8 +158,8 @@ export class SeriesList implements OnInit {
   private nextReleaseTs(s: BookSeries): number {
     const today = new Date(); today.setHours(0, 0, 0, 0);
     const dates = s.books
-      .filter(b => b.publication?.expectedPublicationDate)
-      .map(b => this.pubDateToDate(b.publication!.expectedPublicationDate!))
+      .filter(b => !this.isReleased(b))
+      .map(b => this.releaseDate(b))
       .filter((d): d is Date => d !== null && d >= today)
       .map(d => d.getTime());
     return dates.length ? Math.min(...dates) : Infinity;
@@ -168,6 +167,20 @@ export class SeriesList implements OnInit {
 
   private formatShortDate(d: Date): string {
     return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+
+  // A book that was expected when the data was loaded counts as released once its expected date has passed
+  private isReleased(book: Book): boolean {
+    if (!book.publication) return false;
+    if (book.publication.publicationDate) return true;
+    const expected = this.releaseDate(book);
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    return expected !== null && expected <= today;
+  }
+
+  private releaseDate(book: Book): Date | null {
+    const pd = book.publication?.publicationDate ?? book.publication?.expectedPublicationDate;
+    return pd ? this.pubDateToDate(pd) : null;
   }
 
   private pubDateToDate(pd: PublicationDate): Date | null {
@@ -182,6 +195,6 @@ export class SeriesList implements OnInit {
   }
 
   trackBySeries(_: number, s: BookSeries): string {
-    return s.goodReadsUrl;
+    return s.url;
   }
 }

@@ -39,13 +39,13 @@ public class ShowCurrentBooksCommand implements Callable<Integer> {
 
         final List<String> releasedLately = bookSeriesList.stream().flatMap(x -> x.getBooks().stream()).filter(book -> {
                     if (book.getPublication() != null && !book.getPublication().notYetPublished()) {
-                        final Optional<LocalDate> publicationDate = book.getPublication().getPublicationDate().toLocalDate();
+                        final Optional<LocalDate> publicationDate = book.getPublication().releaseDate();
                         return publicationDate.isPresent() && publicationDate.get().isAfter(LocalDate.now().minusDays(publishedLastDays));
                     }
                     return false;
                 })
-                .sorted(Comparator.comparing(x -> x.getPublication().getPublicationDate().toLocalDate().orElse(LocalDate.MAX)))
-                .map(x -> x.toStringNoUrl() + " " + x.getSeries().getGoodReadsUrl())
+                .sorted(Comparator.comparing(x -> x.getPublication().releaseDate().orElse(LocalDate.MAX)))
+                .map(x -> x.toStringNoUrl() + " " + x.getSeries().getUrl())
                 .collect(Collectors.toList());
         System.out.println();
         if (!releasedLately.isEmpty()) {
@@ -55,13 +55,13 @@ public class ShowCurrentBooksCommand implements Callable<Integer> {
 
         final List<String> expectedNextTime = bookSeriesList.stream().flatMap(x -> x.getBooks().stream()).filter(book -> {
                     if (book.getPublication() != null && book.getPublication().notYetPublished()) {
-                        final Optional<LocalDate> expectedDate = book.getPublication().getExpectedPublicationDate().toLocalDate();
+                        final Optional<LocalDate> expectedDate = book.getPublication().releaseDate();
                         return expectedDate.isPresent() && expectedDate.get().isBefore(LocalDate.now().plusDays(expectedNextDays));
                     }
                     return false;
                 })
-                .sorted(Comparator.comparing(x -> x.getPublication().getExpectedPublicationDate().toLocalDate().orElse(LocalDate.MAX)))
-                .map(x -> x.toStringNoUrl() + " " + x.getSeries().getGoodReadsUrl())
+                .sorted(Comparator.comparing(x -> x.getPublication().releaseDate().orElse(LocalDate.MAX)))
+                .map(x -> x.toStringNoUrl() + " " + x.getSeries().getUrl())
                 .collect(Collectors.toList());
         if (!expectedNextTime.isEmpty()) {
             System.out.println();

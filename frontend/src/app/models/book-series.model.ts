@@ -21,7 +21,9 @@ export interface Book {
 export interface BookSeries {
   title: string;
   author: string;
-  goodReadsUrl: string;
+  goodReadsUrl: string | null;
+  hardcoverSlug: string | null;
+  url: string;
   lastUpdate: string | null;
   books: Book[];
 }
