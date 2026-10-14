@@ -1,0 +1,1577 @@
+[ {
+  "title" : "Red Rising Saga",
+  "author" : "Pierce Brown",
+  "goodReadsUrl" : "https://www.goodreads.com/series/117100-red-rising-saga",
+  "lastUpdate" : 1785182443.864847100,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Red Rising",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2014,
+        "month" : 1,
+        "day" : 28
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/15839976-red-rising",
+    "rating" : 4.27,
+    "ratings" : 933976
+  }, {
+    "number" : 2,
+    "title" : "Golden Son",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2015,
+        "month" : 1,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/18966819-golden-son",
+    "rating" : 4.51,
+    "ratings" : 578639
+  }, {
+    "number" : 3,
+    "title" : "Morning Star",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2016,
+        "month" : 2,
+        "day" : 9
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/18966806-morning-star",
+    "rating" : 4.55,
+    "ratings" : 470312
+  }, {
+    "number" : 4,
+    "title" : "Iron Gold",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2018,
+        "month" : 1,
+        "day" : 16
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/33257757-iron-gold",
+    "rating" : 4.21,
+    "ratings" : 223282
+  }, {
+    "number" : 5,
+    "title" : "Dark Age",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2019,
+        "month" : 7,
+        "day" : 30
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/29226553-dark-age",
+    "rating" : 4.51,
+    "ratings" : 163943
+  }, {
+    "number" : 6,
+    "title" : "Light Bringer",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 7,
+        "day" : 25
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/29227774-light-bringer",
+    "rating" : 4.78,
+    "ratings" : 131840
+  }, {
+    "number" : 7,
+    "title" : "Red God",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/61657799-red-god",
+    "rating" : 4.53,
+    "ratings" : 482
+  } ]
+}, {
+  "title" : "The Grave of Empires Series",
+  "author" : "Sam Sykes",
+  "goodReadsUrl" : "https://www.goodreads.com/series/255488-the-grave-of-empires",
+  "lastUpdate" : 1785182449.846787900,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Seven Blades in Black",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2019,
+        "month" : 4,
+        "day" : 9
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/40389431-seven-blades-in-black",
+    "rating" : 3.97,
+    "ratings" : 5923
+  }, {
+    "number" : 2,
+    "title" : "Ten Arrows of Iron",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 8,
+        "day" : 4
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/49088622-ten-arrows-of-iron",
+    "rating" : 4.13,
+    "ratings" : 1754
+  }, {
+    "number" : 3,
+    "title" : "Three Axes to Fall",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 12,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/60768875-three-axes-to-fall",
+    "rating" : 4.1,
+    "ratings" : 954
+  } ]
+}, {
+  "title" : "The Reborn Empire Series",
+  "author" : "Devin Madson",
+  "goodReadsUrl" : "https://www.goodreads.com/series/237838-the-reborn-empire",
+  "lastUpdate" : 1785182515.799796600,
+  "books" : [ {
+    "number" : 1,
+    "title" : "We Ride the Storm",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 6,
+        "day" : 23
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/52588656-we-ride-the-storm",
+    "rating" : 3.81,
+    "ratings" : 2026
+  }, {
+    "number" : 2,
+    "title" : "We Lie With Death",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 1,
+        "day" : 12
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/53369487-we-lie-with-death",
+    "rating" : 4.07,
+    "ratings" : 694
+  }, {
+    "number" : 3,
+    "title" : "We Cry for Blood",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 8,
+        "day" : 3
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/55965459-we-cry-for-blood",
+    "rating" : 4.03,
+    "ratings" : 417
+  }, {
+    "number" : 4,
+    "title" : "We Dream of Gods",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 3,
+        "day" : 21
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/58705823-we-dream-of-gods",
+    "rating" : 3.64,
+    "ratings" : 257
+  } ]
+}, {
+  "title" : "The Burning Series",
+  "author" : "Evan Winter",
+  "goodReadsUrl" : "https://www.goodreads.com/series/250573-the-burning",
+  "lastUpdate" : 1785182525.503814000,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Rage of Dragons",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2019,
+        "month" : 7,
+        "day" : 16
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/41952489-the-rage-of-dragons",
+    "rating" : 4.3,
+    "ratings" : 50204
+  }, {
+    "number" : 2,
+    "title" : "The Fires of Vengeance",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 11,
+        "day" : 10
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/43174603-the-fires-of-vengeance",
+    "rating" : 4.38,
+    "ratings" : 23396
+  }, {
+    "number" : 3,
+    "title" : "The Lord of Demons",
+    "publication" : {
+      "publicationDate" : null,
+      "expectedPublicationDate" : {
+        "year" : 2026,
+        "month" : 10,
+        "day" : 6
+      }
+    },
+    "url" : "https://www.goodreads.com/book/show/53655834-the-lord-of-demons",
+    "rating" : 4.35,
+    "ratings" : 91
+  }, {
+    "number" : 4,
+    "title" : "Untitled",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/53655863-untitled",
+    "rating" : 4.33,
+    "ratings" : 21
+  } ]
+}, {
+  "title" : "Warformed: Stormweaver Series",
+  "author" : "Bryce O'Connor",
+  "goodReadsUrl" : "https://www.goodreads.com/series/302625-warformed-stormweaver",
+  "lastUpdate" : 1785182531.267088000,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Iron Prince",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 10,
+        "day" : 15
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/55559974-iron-prince",
+    "rating" : 4.56,
+    "ratings" : 19044
+  }, {
+    "number" : 2,
+    "title" : "Fire and Song",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 10,
+        "day" : 31
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/188994646-fire-and-song",
+    "rating" : 4.6,
+    "ratings" : 10519
+  } ]
+}, {
+  "title" : "Between Earth and Sky Series",
+  "author" : "Rebecca Roanhorse",
+  "goodReadsUrl" : "https://www.goodreads.com/series/266277-between-earth-and-sky",
+  "lastUpdate" : 1785182537.083939600,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Black Sun",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 10,
+        "day" : 13
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/50892360-black-sun",
+    "rating" : 4.16,
+    "ratings" : 56813
+  }, {
+    "number" : 2,
+    "title" : "Fevered Star",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 4,
+        "day" : 19
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/57339626-fevered-star",
+    "rating" : 4.07,
+    "ratings" : 23026
+  }, {
+    "number" : 3,
+    "title" : "Mirrored Heavens",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 6,
+        "day" : 4
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/60656015-mirrored-heavens",
+    "rating" : 4.21,
+    "ratings" : 10880
+  } ]
+}, {
+  "title" : "The Wakening Series",
+  "author" : "Jonathan Renshaw",
+  "goodReadsUrl" : "https://www.goodreads.com/series/156786-the-wakening",
+  "lastUpdate" : 1785182545.738249600,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Dawn of Wonder",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2015,
+        "month" : 5,
+        "day" : 1
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/25451852-dawn-of-wonder",
+    "rating" : 4.35,
+    "ratings" : 26123
+  }, {
+    "number" : 2,
+    "title" : "Untitled",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/34001654-untitled",
+    "rating" : 3.84,
+    "ratings" : 49
+  }, {
+    "number" : 3,
+    "title" : "Untitled",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/56332576-untitled",
+    "rating" : 5.0,
+    "ratings" : 1
+  } ]
+}, {
+  "title" : "The Tide Child Series",
+  "author" : "R.J. Barker",
+  "goodReadsUrl" : "https://www.goodreads.com/series/258685-the-tide-child",
+  "lastUpdate" : 1785182551.570160200,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Bone Ships",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2019,
+        "month" : 9,
+        "day" : 24
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/43521682-the-bone-ships",
+    "rating" : 4.02,
+    "ratings" : 12767
+  }, {
+    "number" : 2,
+    "title" : "Call of the Bone Ships",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 11,
+        "day" : 24
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/50637119-call-of-the-bone-ships",
+    "rating" : 4.36,
+    "ratings" : 6210
+  }, {
+    "number" : 3,
+    "title" : "The Bone Ship's Wake",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 9,
+        "day" : 28
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/56076679-the-bone-ship-s-wake",
+    "rating" : 4.47,
+    "ratings" : 5563
+  } ]
+}, {
+  "title" : "Rook & Rose Series",
+  "author" : "M.A. Carrick",
+  "goodReadsUrl" : "https://www.goodreads.com/series/287237-rook-rose",
+  "lastUpdate" : 1785182557.243436300,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Mask of Mirrors",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 1,
+        "day" : 21
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/51340378-the-mask-of-mirrors",
+    "rating" : 4.0,
+    "ratings" : 15154
+  }, {
+    "number" : 2,
+    "title" : "The Liar’s Knot",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 12,
+        "day" : 9
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/57308929-the-liar-s-knot",
+    "rating" : 4.42,
+    "ratings" : 7613
+  }, {
+    "number" : 3,
+    "title" : "Labyrinth's Heart",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 8,
+        "day" : 15
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/59954183-labyrinth-s-heart",
+    "rating" : 4.25,
+    "ratings" : 5189
+  } ]
+}, {
+  "title" : "Bethel Series",
+  "author" : "Alexis Henderson",
+  "goodReadsUrl" : "https://www.goodreads.com/series/304073-bethel",
+  "lastUpdate" : 1785182564.476329700,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Year of the Witching",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 7,
+        "day" : 21
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/49789629-the-year-of-the-witching",
+    "rating" : 3.8,
+    "ratings" : 47532
+  }, {
+    "number" : 2,
+    "title" : "The Dawn of the Coven",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/74296654-the-dawn-of-the-coven",
+    "rating" : 4.0,
+    "ratings" : 11
+  } ]
+}, {
+  "title" : "The Radiant Emperor Series",
+  "author" : "Shelley Parker-Chan",
+  "goodReadsUrl" : "https://www.goodreads.com/series/304356-the-radiant-emperor",
+  "lastUpdate" : 1785182570.462051200,
+  "books" : [ {
+    "number" : 1,
+    "title" : "She Who Became the Sun",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 7,
+        "day" : 20
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/48727813-she-who-became-the-sun",
+    "rating" : 3.83,
+    "ratings" : 98188
+  }, {
+    "number" : 2,
+    "title" : "He Who Drowned the World",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 8,
+        "day" : 22
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/63132362-he-who-drowned-the-world",
+    "rating" : 4.2,
+    "ratings" : 16943
+  } ]
+}, {
+  "title" : "Convergence Saga",
+  "author" : "Cadwell Turnbull",
+  "goodReadsUrl" : "https://www.goodreads.com/series/316135-convergence-saga",
+  "lastUpdate" : 1785182576.178863100,
+  "books" : [ {
+    "number" : 1,
+    "title" : "No Gods, No Monsters",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 9,
+        "day" : 7
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/55748103-no-gods-no-monsters",
+    "rating" : 3.43,
+    "ratings" : 8187
+  }, {
+    "number" : 2,
+    "title" : "We Are the Crisis",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 11,
+        "day" : 7
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/124053855-we-are-the-crisis",
+    "rating" : 3.94,
+    "ratings" : 802
+  }, {
+    "number" : 3,
+    "title" : "A Ruin, Great and Free",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 9,
+        "day" : 16
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/228675239-a-ruin-great-and-free",
+    "rating" : 4.1,
+    "ratings" : 180
+  } ]
+}, {
+  "title" : "The Divide Series",
+  "author" : "J.S. Dewes",
+  "goodReadsUrl" : "https://www.goodreads.com/series/298928-the-divide",
+  "lastUpdate" : 1785182581.874462000,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Last Watch",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 4,
+        "day" : 20
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/53205794-the-last-watch",
+    "rating" : 3.97,
+    "ratings" : 12473
+  }, {
+    "number" : 2,
+    "title" : "The Exiled Fleet",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 8,
+        "day" : 17
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/55077639-the-exiled-fleet",
+    "rating" : 4.24,
+    "ratings" : 6807
+  }, {
+    "number" : 3,
+    "title" : "The Relentless Legion",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 11,
+        "day" : 12
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/203579245-the-relentless-legion",
+    "rating" : 4.06,
+    "ratings" : 2374
+  } ]
+}, {
+  "title" : "Pact and Pattern Series",
+  "author" : "J.T. Greathouse",
+  "goodReadsUrl" : "https://www.goodreads.com/series/301325-pact-and-pattern",
+  "lastUpdate" : 1785182587.504755000,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Hand of the Sun King",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 8,
+        "day" : 5
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/57596188-the-hand-of-the-sun-king",
+    "rating" : 3.75,
+    "ratings" : 3026
+  }, {
+    "number" : 2,
+    "title" : "The Garden of Empire",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 8,
+        "day" : 4
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/59552137-the-garden-of-empire",
+    "rating" : 3.62,
+    "ratings" : 747
+  }, {
+    "number" : 3,
+    "title" : "The Pattern of the World",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 8,
+        "day" : 3
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/122781677-the-pattern-of-the-world",
+    "rating" : 3.49,
+    "ratings" : 377
+  } ]
+}, {
+  "title" : "The Immortal Great Souls Series",
+  "author" : "Phil Tucker",
+  "goodReadsUrl" : "https://www.goodreads.com/series/333746-the-immortal-great-souls",
+  "lastUpdate" : 1785182593.263014400,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Bastion",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 11,
+        "day" : 8
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/59521676-bastion",
+    "rating" : 4.38,
+    "ratings" : 7378
+  }, {
+    "number" : 2,
+    "title" : "The Rascor Plains",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 4,
+        "day" : 1
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/123859623-the-rascor-plains",
+    "rating" : 4.58,
+    "ratings" : 4271
+  }, {
+    "number" : 3,
+    "title" : "LastRock",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 2,
+        "day" : 5
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/207613507-lastrock",
+    "rating" : 4.63,
+    "ratings" : 3445
+  }, {
+    "number" : 4,
+    "title" : "The Lost Cube",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 10,
+        "day" : 13
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/242470097-the-lost-cube",
+    "rating" : 4.66,
+    "ratings" : 1950
+  } ]
+}, {
+  "title" : "Stranger Times Series",
+  "author" : "C.K. McDonnell",
+  "goodReadsUrl" : "https://www.goodreads.com/series/332062-stranger-times",
+  "lastUpdate" : 1785182599.096304700,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Stranger Times",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 1,
+        "day" : 14
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/53181090-the-stranger-times",
+    "rating" : 4.16,
+    "ratings" : 16637
+  }, {
+    "number" : 2,
+    "title" : "This Charming Man",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 2,
+        "day" : 17
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/58297480-this-charming-man",
+    "rating" : 4.32,
+    "ratings" : 8741
+  }, {
+    "number" : 3,
+    "title" : "Love Will Tear Us Apart",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 2,
+        "day" : 9
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/61395248-love-will-tear-us-apart",
+    "rating" : 4.35,
+    "ratings" : 5915
+  }, {
+    "number" : 4,
+    "title" : "Relight My Fire",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 1,
+        "day" : 25
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/141310699-relight-my-fire",
+    "rating" : 4.42,
+    "ratings" : 4402
+  }, {
+    "number" : 5,
+    "title" : "Ring the Bells",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 10,
+        "day" : 9
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/223482741-ring-the-bells",
+    "rating" : 4.43,
+    "ratings" : 2533
+  } ]
+}, {
+  "title" : "The Kystrom Chronicles Series",
+  "author" : "Taran Hunt",
+  "goodReadsUrl" : "https://www.goodreads.com/series/350805-the-kystrom-chronicles",
+  "lastUpdate" : 1785182606.814785400,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Immortality Thief",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 10,
+        "day" : 11
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/60321139-the-immortality-thief",
+    "rating" : 4.08,
+    "ratings" : 2545
+  }, {
+    "number" : 2,
+    "title" : "The Unkillable Princess",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/214152226-the-unkillable-princess",
+    "rating" : 4.14,
+    "ratings" : 453
+  } ]
+}, {
+  "title" : "Dungeon Crawler Carl Series",
+  "author" : "Matt Dinniman",
+  "goodReadsUrl" : "https://www.goodreads.com/series/309211-dungeon-crawler-carl",
+  "lastUpdate" : 1785182633.276137200,
+  "books" : [ {
+    "number" : 8,
+    "title" : "A Parade of Horribles",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2026,
+        "month" : 5,
+        "day" : 12
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/228928465-a-parade-of-horribles",
+    "rating" : 4.63,
+    "ratings" : 83978
+  }, {
+    "number" : 1,
+    "title" : "Dungeon Crawler Carl",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2020,
+        "month" : 9,
+        "day" : 21
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/211721806-dungeon-crawler-carl",
+    "rating" : 4.44,
+    "ratings" : 515468
+  }, {
+    "number" : 2,
+    "title" : "Carl's Doomsday Scenario",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 1,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/212393364-carl-s-doomsday-scenario",
+    "rating" : 4.49,
+    "ratings" : 339970
+  }, {
+    "number" : 3,
+    "title" : "The Dungeon Anarchist's Cookbook",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 3,
+        "day" : 19
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/211721809-the-dungeon-anarchist-s-cookbook",
+    "rating" : 4.39,
+    "ratings" : 276624
+  }, {
+    "number" : 4,
+    "title" : "The Gate of the Feral Gods",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 6,
+        "day" : 14
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/220772908-the-gate-of-the-feral-gods",
+    "rating" : 4.54,
+    "ratings" : 226379
+  }, {
+    "number" : 5,
+    "title" : "The Butcher's Masquerade",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 2,
+        "day" : 28
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/220772913-the-butcher-s-masquerade",
+    "rating" : 4.69,
+    "ratings" : 192807
+  }, {
+    "number" : 6,
+    "title" : "The Eye of the Bedlam Bride",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 7,
+        "day" : 2
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/220772912-the-eye-of-the-bedlam-bride",
+    "rating" : 4.64,
+    "ratings" : 164005
+  }, {
+    "number" : 7,
+    "title" : "This Inevitable Ruin",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 11,
+        "day" : 3
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/232497556-this-inevitable-ruin",
+    "rating" : 4.67,
+    "ratings" : 135559
+  } ]
+}, {
+  "title" : "The Fire Sacraments Series",
+  "author" : "Robert V.S. Redick",
+  "goodReadsUrl" : "https://www.goodreads.com/series/216413-the-fire-sacraments",
+  "lastUpdate" : 1785182699.112047500,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Master Assassins",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2018,
+        "month" : 3,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/35437058-master-assassins",
+    "rating" : 4.06,
+    "ratings" : 2245
+  }, {
+    "number" : 2,
+    "title" : "Sidewinders",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2021,
+        "month" : 7,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/55711345-sidewinders",
+    "rating" : 4.48,
+    "ratings" : 701
+  } ]
+}, {
+  "title" : "The Last Horizon Series",
+  "author" : "Will Wight",
+  "goodReadsUrl" : "https://www.goodreads.com/series/364813-the-last-horizon",
+  "lastUpdate" : 1785182704.927386700,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Captain",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 4,
+        "day" : 4
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/123165953-the-captain",
+    "rating" : 4.27,
+    "ratings" : 10102
+  }, {
+    "number" : 2,
+    "title" : "The Engineer",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 12,
+        "day" : 4
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/201127814-the-engineer",
+    "rating" : 4.41,
+    "ratings" : 6364
+  }, {
+    "number" : 3,
+    "title" : "The Knight",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 6,
+        "day" : 4
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/213353605-the-knight",
+    "rating" : 4.45,
+    "ratings" : 4820
+  }, {
+    "number" : 4,
+    "title" : "The Pilot",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 7,
+        "day" : 1
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/235156795-the-pilot",
+    "rating" : 4.41,
+    "ratings" : 3070
+  } ]
+}, {
+  "title" : "The Hierarchy Series",
+  "author" : "James Islington",
+  "goodReadsUrl" : "https://www.goodreads.com/series/358080-the-hierarchy",
+  "lastUpdate" : 1785182712.401246200,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Will of the Many",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 5,
+        "day" : 23
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/58416952-the-will-of-the-many",
+    "rating" : 4.57,
+    "ratings" : 271795
+  }, {
+    "number" : 2,
+    "title" : "The Strength of the Few",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 11,
+        "day" : 11
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/169485073-the-strength-of-the-few",
+    "rating" : 4.3,
+    "ratings" : 118620
+  }, {
+    "number" : 3,
+    "title" : "The Justice of One",
+    "publication" : {
+      "publicationDate" : null,
+      "expectedPublicationDate" : {
+        "year" : 2027,
+        "month" : 1,
+        "day" : 1
+      }
+    },
+    "url" : "https://www.goodreads.com/book/show/245517793-the-justice-of-one",
+    "rating" : 4.5,
+    "ratings" : 58
+  } ]
+}, {
+  "title" : "The Library Trilogy",
+  "author" : "Mark Lawrence",
+  "goodReadsUrl" : "https://www.goodreads.com/series/343696-the-library-trilogy",
+  "lastUpdate" : 1785182778.360876900,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Book That Wouldn’t Burn",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 5,
+        "day" : 1
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/61612864-the-book-that-wouldn-t-burn",
+    "rating" : 3.95,
+    "ratings" : 45308
+  }, {
+    "number" : 2,
+    "title" : "The Book That Broke the World",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 4,
+        "day" : 9
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/157031755-the-book-that-broke-the-world",
+    "rating" : 3.99,
+    "ratings" : 16759
+  }, {
+    "number" : 3,
+    "title" : "The Book That Held Her Heart",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 4,
+        "day" : 8
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/216247528-the-book-that-held-her-heart",
+    "rating" : 3.75,
+    "ratings" : 9294
+  } ]
+}, {
+  "title" : "Above the Black Series",
+  "author" : "Marc J. Gregson",
+  "goodReadsUrl" : "https://www.goodreads.com/series/365493-above-the-black",
+  "lastUpdate" : 1785182785.938698800,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Sky's End",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 1,
+        "day" : 2
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/60770260-sky-s-end",
+    "rating" : 4.21,
+    "ratings" : 5136
+  }, {
+    "number" : 3,
+    "title" : "Downfall",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/123223990-downfall",
+    "rating" : 4.36,
+    "ratings" : 592
+  }, {
+    "number" : 2,
+    "title" : "Among Serpents",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 1,
+        "day" : 7
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/211026686-among-serpents",
+    "rating" : 4.29,
+    "ratings" : 1812
+  } ]
+}, {
+  "title" : "Shadow of the Leviathan Series",
+  "author" : "Robert Jackson Bennett",
+  "goodReadsUrl" : "https://www.goodreads.com/series/362899-shadow-of-the-leviathan",
+  "lastUpdate" : 1785182795.938761700,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Tainted Cup",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 2,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/150247395-the-tainted-cup",
+    "rating" : 4.29,
+    "ratings" : 101774
+  }, {
+    "number" : 2,
+    "title" : "A Drop of Corruption",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 4,
+        "day" : 1
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
+    "rating" : 4.47,
+    "ratings" : 51053
+  }, {
+    "number" : 3,
+    "title" : "A Trade of Blood",
+    "publication" : {
+      "publicationDate" : null,
+      "expectedPublicationDate" : {
+        "year" : 2026,
+        "month" : 8,
+        "day" : 4
+      }
+    },
+    "url" : "https://www.goodreads.com/book/show/102615935-a-trade-of-blood",
+    "rating" : 4.64,
+    "ratings" : 721
+  } ]
+}, {
+  "title" : "Children of Corruption Series",
+  "author" : "Michael R. Fletcher",
+  "goodReadsUrl" : "https://www.goodreads.com/series/391815-children-of-corruption",
+  "lastUpdate" : 1785182801.763759300,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Storm Beneath the World",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 4,
+        "day" : 1
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/203588014-the-storm-beneath-the-world",
+    "rating" : 4.4,
+    "ratings" : 187
+  } ]
+}, {
+  "title" : "Fever House Series",
+  "author" : "Keith Rosson",
+  "goodReadsUrl" : "https://www.goodreads.com/series/377558-fever-house",
+  "lastUpdate" : 1785182807.563983300,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Fever House",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 8,
+        "day" : 15
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/66087060-fever-house",
+    "rating" : 4.02,
+    "ratings" : 9169
+  }, {
+    "number" : 2,
+    "title" : "The Devil by Name",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 9,
+        "day" : 10
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/202102065-the-devil-by-name",
+    "rating" : 4.2,
+    "ratings" : 3747
+  } ]
+}, {
+  "title" : "The Lamplight Murder Mysteries Series",
+  "author" : "Morgan Stang",
+  "goodReadsUrl" : "https://www.goodreads.com/series/373698-the-lamplight-murder-mysteries",
+  "lastUpdate" : 1785182817.728236800,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Murder at Spindle Manor",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2022,
+        "month" : 10,
+        "day" : 20
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/62993337-murder-at-spindle-manor",
+    "rating" : 3.95,
+    "ratings" : 3506
+  }, {
+    "number" : 2,
+    "title" : "Murder on the Lamplight Express",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 8,
+        "day" : 3
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/186764264-murder-on-the-lamplight-express",
+    "rating" : 4.22,
+    "ratings" : 1488
+  }, {
+    "number" : 3,
+    "title" : "Murder on Hunter's Eve",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/214441905-murder-on-hunter-s-eve",
+    "rating" : 4.34,
+    "ratings" : 952
+  } ]
+}, {
+  "title" : "The Captive's War Series",
+  "author" : "James S.A. Corey",
+  "goodReadsUrl" : "https://www.goodreads.com/series/337839-the-captive-s-war",
+  "lastUpdate" : 1785182826.425770600,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Mercy of Gods",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 8,
+        "day" : 6
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/201930181-the-mercy-of-gods",
+    "rating" : 4.15,
+    "ratings" : 43892
+  }, {
+    "number" : 2,
+    "title" : "The Faith of Beasts",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2026,
+        "month" : 4,
+        "day" : 14
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/236849296-the-faith-of-beasts",
+    "rating" : 4.33,
+    "ratings" : 11729
+  } ]
+}, {
+  "title" : "Amina al-Sirafi Series",
+  "author" : "Shannon Chakraborty",
+  "goodReadsUrl" : "https://www.goodreads.com/series/289717-amina-al-sirafi",
+  "lastUpdate" : 1785182833.817999100,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Adventures of Amina al-Sirafi",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 2,
+        "day" : 28
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/61294937-the-adventures-of-amina-al-sirafi",
+    "rating" : 4.24,
+    "ratings" : 88150
+  }, {
+    "number" : 2,
+    "title" : "The Tapestry of Fate",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2026,
+        "month" : 5,
+        "day" : 12
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/241544367-the-tapestry-of-fate",
+    "rating" : 4.43,
+    "ratings" : 6390
+  } ]
+}, {
+  "title" : "Dark Lord Davi Series",
+  "author" : "Django Wexler",
+  "goodReadsUrl" : "https://www.goodreads.com/series/386353-dark-lord-davi",
+  "lastUpdate" : 1785182839.671464100,
+  "books" : [ {
+    "number" : 1,
+    "title" : "How to Become the Dark Lord and Die Trying",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 5,
+        "day" : 21
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/198493860-how-to-become-the-dark-lord-and-die-trying",
+    "rating" : 3.77,
+    "ratings" : 20783
+  }, {
+    "number" : 2,
+    "title" : "Everybody Wants to Rule the World Except Me",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 5,
+        "day" : 27
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/217560607-everybody-wants-to-rule-the-world-except-me",
+    "rating" : 4.04,
+    "ratings" : 7026
+  } ]
+}, {
+  "title" : "Forever Desert Series",
+  "author" : "Moses Ose Utomi",
+  "goodReadsUrl" : "https://www.goodreads.com/series/354446-forever-desert",
+  "lastUpdate" : 1785182845.401075800,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Lies of the Ajungo",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 3,
+        "day" : 21
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/60784306-the-lies-of-the-ajungo",
+    "rating" : 4.2,
+    "ratings" : 5422
+  }, {
+    "number" : 2,
+    "title" : "The Truth of the Aleke",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2024,
+        "month" : 3,
+        "day" : 5
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/139397033-the-truth-of-the-aleke",
+    "rating" : 4.11,
+    "ratings" : 1792
+  }, {
+    "number" : 3,
+    "title" : "The Memory of the Ogisi",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 7,
+        "day" : 15
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/217387790-the-memory-of-the-ogisi",
+    "rating" : 4.04,
+    "ratings" : 883
+  } ]
+}, {
+  "title" : "Threads of Power Series",
+  "author" : "Victoria E. Schwab",
+  "goodReadsUrl" : "https://www.goodreads.com/series/213849-threads-of-power",
+  "lastUpdate" : 1785182857.029326700,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Fragile Threads of Power",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2023,
+        "month" : 9,
+        "day" : 26
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/111673828-the-fragile-threads-of-power",
+    "rating" : 4.25,
+    "ratings" : 49098
+  }, {
+    "number" : 2,
+    "title" : "Untitled",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/36141137-untitled",
+    "rating" : 4.23,
+    "ratings" : 44
+  }, {
+    "number" : 3,
+    "title" : "Untitled",
+    "publication" : null,
+    "url" : "https://www.goodreads.com/book/show/36141142-untitled",
+    "rating" : 4.43,
+    "ratings" : 23
+  } ]
+}, {
+  "title" : "Eternal Path Trilogy",
+  "author" : "Antonia Hodgson",
+  "goodReadsUrl" : "https://www.goodreads.com/series/394271-eternal-path-trilogy",
+  "lastUpdate" : 1785182864.531111200,
+  "books" : [ {
+    "number" : 1,
+    "title" : "The Raven Scholar",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2025,
+        "month" : 4,
+        "day" : 15
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/212174157-the-raven-scholar",
+    "rating" : 4.38,
+    "ratings" : 61849
+  }, {
+    "number" : 2,
+    "title" : "The Fox in Winter",
+    "publication" : {
+      "publicationDate" : null,
+      "expectedPublicationDate" : {
+        "year" : 2027,
+        "month" : 10,
+        "day" : 5
+      }
+    },
+    "url" : "https://www.goodreads.com/book/show/251411515-the-fox-in-winter",
+    "rating" : 4.6,
+    "ratings" : 45
+  } ]
+}, {
+  "title" : "The Academy of Kindness Series",
+  "author" : "Mark Lawrence",
+  "goodReadsUrl" : "https://www.goodreads.com/series/429017-the-academy-of-kindness",
+  "lastUpdate" : 1785182870.354111700,
+  "books" : [ {
+    "number" : 1,
+    "title" : "Daughter of Crows",
+    "publication" : {
+      "publicationDate" : {
+        "year" : 2026,
+        "month" : 3,
+        "day" : 24
+      },
+      "expectedPublicationDate" : null
+    },
+    "url" : "https://www.goodreads.com/book/show/238767000-daughter-of-crows",
+    "rating" : 3.98,
+    "ratings" : 4491
+  } ]
+} ]

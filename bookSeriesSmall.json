@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "goodReadsUrl": "https://www.goodreads.com/series/117100-red-rising-saga",
+    "books": [
+      {
+        "number": 1,
+        "title": "Red Rising",
+        "publication": {
+          "publicationDate": {
+            "year": 2014,
+            "month": 1,
+            "day": 28
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/15839976-red-rising",
+        "rating": 4.26,
+        "ratings": 371730
+      },
+      {
+        "number": 2,
+        "title": "Golden Son",
+        "publication": {
+          "publicationDate": {
+            "year": 2015,
+            "month": 1,
+            "day": 6
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/18966819-golden-son",
+        "rating": 4.45,
+        "ratings": 223773
+      },
+      {
+        "number": 3,
+        "title": "Morning Star",
+        "publication": {
+          "publicationDate": {
+            "year": 2016,
+            "month": 2,
+            "day": 9
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/18966806-morning-star",
+        "rating": 4.5,
+        "ratings": 185484
+      },
+      {
+        "number": 4,
+        "title": "Iron Gold",
+        "publication": {
+          "publicationDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 16
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/33257757-iron-gold",
+        "rating": 4.24,
+        "ratings": 77183
+      },
+      {
+        "number": 5,
+        "title": "Dark Age",
+        "publication": {
+          "publicationDate": {
+            "year": 2019,
+            "month": 7,
+            "day": 30
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/29226553-dark-age",
+        "rating": 4.46,
+        "ratings": 49170
+      },
+      {
+        "number": 6,
+        "title": "Light Bringer",
+        "publication": {
+          "publicationDate": {
+            "year": 2023,
+            "month": 7,
+            "day": 25
+          },
+          "expectedPublicationDate": null
+        },
+        "url": "https://www.goodreads.com/book/show/29227774-light-bringer",
+        "rating": 4.76,
+        "ratings": 17582
+      },
+      {
+        "number": 7,
+        "title": "Red God",
+        "publication": null,
+        "url": "https://www.goodreads.com/book/show/61657799-red-god",
+        "rating": 4.62,
+        "ratings": 53
+      }
+    ]
+  }
+]
